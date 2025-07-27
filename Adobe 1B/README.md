@@ -69,7 +69,7 @@ docker build -t adobe-pdf-analyzer .
 
 #### **Run Multi-Collection Analysis**
 ```bash
-# Process all collections automatically
+# Process all collections 
 docker run --rm -it \
   -v "$(pwd)/Collection 1:/app/Collection 1" \
   -v "$(pwd)/Collection 2:/app/Collection 2" \
